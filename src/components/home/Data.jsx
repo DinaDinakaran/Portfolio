@@ -58,7 +58,7 @@ function Data() {
       <h3 className="home__subtitle">Full Stack Developer </h3>
       <p className="home__description">
         {" "}
-        I'm creating a web developer in India and I'm very passionate and
+        I am creative  web developer in India and I'm very passionate and
         enjoying my work
       </p>
       <a href="#contact" className="button button--flex">

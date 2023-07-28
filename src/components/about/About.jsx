@@ -14,7 +14,7 @@ function About() {
         <div className="about__data">
           <Info/>
           <p className="about__description">
-            Full stock developer I will create webpages more Responsible and Scalable, I have year experience Both react and Angular, I working with a team on world tennis tournament and international table tennis Federation
+            Full stock developer I will create webpages more Responsive and Scalable, I have year experience Both react and Angular, I worked with a team on world tennis tournament and international table tennis Federation
           </p>
           <a href="https://drive.google.com/file/d/1f-BmG06amHYk4jG9Y28J7giyKHZsTuPq/view" target='_blank' className="button button--flex" style={{margin:"0.75rem"}} >View Resume</a>
           <a download='' href={cv} className="button button--flex">Download Resume 

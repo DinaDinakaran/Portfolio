@@ -32,7 +32,7 @@ function Header() {
                 </li>
                 <li className="nav__item">
                     <a href="#portfolio" className="nav__link">
-                        <i className="uil uil-scenery nav_icon"></i>Portfolio
+                        <i className="uil uil-scenery nav_icon"></i>Project
                     </a>
                 </li>
                 <li className="nav__item">
