@@ -12,27 +12,7 @@ export const projectData =[
         category:"web",
         link:"https://teal-muffin-11bd09.netlify.app/"  
     },
-    {
-        id:1,
-        image:Work2,
-        title:"OI Chat",
-        category:"web" ,
-        link:"#" 
-    },
-    {
-        id:1,
-        image:Work3,
-        title:"OI Chat",
-        category:"web" ,
-        link:"#"  
-    },
-    {
-        id:1,
-        image:Work4,
-        title:"OI Chat",
-        category:"web" ,
-        link:"#" 
-    }
+    
 ]
 
 export const projectsNav =[
