@@ -13,9 +13,6 @@ function SocialMedia() {
       <a href="https://medium.com/@dinadinakaran143" target='_blank' className="home__social-icon">
       <i class="uil uil-medium-m"></i>
       </a>
-      <a href="https://www.instagram.com/mental_mechanicfor_you/" target='_blank' className="home__social-icon">
-        <i className="uil uil-instagram"></i>
-      </a>
     </div>
   )
 }

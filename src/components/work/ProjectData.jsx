@@ -1,6 +1,7 @@
 import Work1 from "../../assets/work1.jpg"
 import Work2 from "../../assets/Ai-applicatio.png"
-import Work3 from "../../assets/realestate.png"
+import Work3 from "../../assets/realestate.png";
+import Work4 from "../../assets/notes.png"
 
 
 export const projectData =[
@@ -24,6 +25,13 @@ export const projectData =[
         title:"Homyz Realestate",
         category:"web",
         link:"https://homyz-realestate-app.netlify.app/"  
+    },
+    {
+        id:4,
+        image:Work4,
+        title:"Notes Organiser and Manager",
+        category:"web",
+        link:"https://64e96af9fb981f760facecb4--notes-organiser.netlify.app/"  
     },
     
 ]

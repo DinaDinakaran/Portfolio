@@ -19,12 +19,11 @@ function Footer() {
             </li>
         </ul>
         <div className="footer__social">
-        <a href="https://www.facebook.com/people/Dina-Dinakaran/pfbid0PREGpfSsV7MMowGZpB5tNcCEiXN2aG7265wCD9GMPkhygAg1mNRbMsMaPs1TPPJYl/" target='_blank' className="footer__social-link">
-      <i className="bx bxl-facebook"></i>
+      <a href="https://www.linkedin.com/in/dinakaran-v-97807b17a" target='_blank' className="footer__social-link">
+      <i class="uil uil-linkedin-alt"></i>
       </a>
-
-      <a href="https://www.instagram.com/mental_mechanicfor_you/" target='_blank' className="footer__social-link">
-        <i className="bx bxl-instagram"></i>
+      <a href="https://medium.com/@dinadinakaran143" target='_blank' className="footer__social-link">
+      <i class="uil uil-medium-m"></i>
       </a>
         </div>
         <span className="footer__copy">
