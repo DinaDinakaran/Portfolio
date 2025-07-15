@@ -11,6 +11,14 @@ function FrontEnd() {
                 <i className="bx bx-badge-check"></i>
 
                 <div>
+                    <h3 className="skills__name">NextJs</h3>
+                    <span className="skills__level">Advance</span>
+                </div>
+            </div>
+            <div className="skills__data">
+                <i className="bx bx-badge-check"></i>
+
+                <div>
                     <h3 className="skills__name">HTML</h3>
                     <span className="skills__level">Advance</span>
                 </div>
@@ -36,7 +44,15 @@ function FrontEnd() {
 
                 <div>
                     <h3 className="skills__name">Javascript</h3>
-                    <span className="skills__level">Intermediate</span>
+                    <span className="skills__level">Advance</span>
+                </div>
+            </div>
+            <div className="skills__data">
+                <i className="bx bx-badge-check"></i>
+
+                <div>
+                    <h3 className="skills__name">Typescript</h3>
+                    <span className="skills__level">Advance</span>
                 </div>
             </div>
             <div className="skills__data">
@@ -86,6 +102,14 @@ function FrontEnd() {
                 <i className="bx bx-badge-check"></i>
 
                 <div>
+                    <h3 className="skills__name">Redux Query Kit</h3>
+                    <span className="skills__level">Advance</span>
+                </div>
+            </div>
+            <div className="skills__data">
+                <i className="bx bx-badge-check"></i>
+
+                <div>
                     <h3 className="skills__name">NgRx</h3>
                     <span className="skills__level">Intermediate</span>
                 </div>
@@ -95,7 +119,7 @@ function FrontEnd() {
 
                 <div>
                     <h3 className="skills__name">Git</h3>
-                    <span className="skills__level">Intermediate</span>
+                    <span className="skills__level">Advance</span>
                 </div>
             </div>
             <div className="skills__data">
@@ -110,8 +134,8 @@ function FrontEnd() {
                 <i className="bx bx-badge-check"></i>
 
                 <div>
-                    <h3 className="skills__name">Chart JS</h3>
-                    <span className="skills__level">Intermediate</span>
+                    <h3 className="skills__name"> Analytical Charts  </h3>
+                    <span className="skills__level">Advance</span>
                 </div>
             </div>
         </div>

@@ -55,11 +55,10 @@ function Data() {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Full Stack Developer </h3>
+      <h3 className="home__subtitle"> Senior Software Engineer</h3>
       <p className="home__description">
         {" "}
-        I am creative  web developer in India and I'm very passionate and
-        enjoying my work
+       As a seasoned Senior Web Developer in India, I drive innovative solutions and mentor teams to build impactful web experiences, all while maintaining my passion for crafting exceptional digital products
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello
