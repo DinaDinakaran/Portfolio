@@ -8,15 +8,32 @@ function About() {
   return (
     <div className='about section' id='about'>
       <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My Indroduction</span>
+      <span className="section__subtitle">My Introduction</span>
       <div className="about__container container grid">
         <img src={photo} alt="" className="about__img" />
         <div className="about__data">
           <Info/>
           <p className="about__description">
-            Full stock developer I will create webpages more Responsive and Scalable, I have year experience Both react and Angular, I worked with a team on world tennis tournament and international table tennis Federation
+            Senior frontend engineer skilled in React, Next.js, and modern JavaScript. I focus on building scalable, responsive applications, ensuring code quality, performance, and accessibility. Experienced in state management, testing, and integrating APIs securely.
+            <br /><br />
+            <strong>Recent Projects:</strong>
+            <ul>
+              <li>
+                <strong>Retail Analytics Dashboard:</strong> Lead a Next.js project for real-time retail analytics, visualising foot traffic and dwell time, and mentoring the team.
+              </li>
+              <li>
+                <strong>OLY Retails:</strong> Developed interactive charts and AI-powered features like Heat Maps and Alarm Triggers, with efficient data handling and VMS integration for camera management.
+              </li>
+              <li>
+                <strong>Scalable Applications:</strong> Built user-focused solutions using MongoDB, Express.js, React, Node.js, Angular, and Next.js Charts.
+              </li>
+              <li>
+                <strong>AI & Machine Learning:</strong> Currently learning Python for machine learning and deep learning, focusing on neural engines and practical data-driven solutions.
+              </li>
+            </ul>
+            Collaborated on global sports projects, including tennis and table tennis federations.
           </p>
-          <a href="https://drive.google.com/file/d/1f-BmG06amHYk4jG9Y28J7giyKHZsTuPq/view" target='_blank' className="button button--flex" style={{margin:"0.75rem"}} >View Resume</a>
+          <a href="https://drive.google.com/file/d/1mh7Gw67Cmz9m7rfmNyw9c11rI8tvbk_f/view?usp=sharing" target='_blank' className="button button--flex" style={{margin:"0.75rem"}} >View Resume</a>
           <a download='' href={cv} className="button button--flex">Download Resume 
           <svg
                 className="button__icon"

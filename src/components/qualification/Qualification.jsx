@@ -30,6 +30,25 @@ function Qualification() {
                 :"qualification__content"
             }>
 
+                     <div className="qualification__data">
+                        <div></div>
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+
+                        <div>
+                             <h3 className="qualification__title">AI&ML Engineer</h3>
+                            <span className="qualification__subtitle">GUVI geek network private Ltd</span>
+                            <div className="qualification__calendar">
+                                <i className="uil uil-calendar-alt"></i>{" "} feb-2025 to present
+
+                            </div>
+                        </div>
+                       
+                        <div>
+                        </div>
+                    </div>
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">Full Stack Developer</h3>
@@ -90,6 +109,40 @@ function Qualification() {
                 ? "qualification__content qualification__content-active "
                 :"qualification__content"
             }>
+                  <div className="qualification__data">
+                      <div>
+                            <h3 className="qualification__title"> Senior Software Engineer & Front-end Lead</h3>
+                            <span className="qualification__subtitle">Bipolar Factory Private Limited</span>
+                            <div className="qualification__calendar">
+                                <i className="uil uil-calendar-alt"></i>{" "}Sep-2024 to jul-2025
+
+                            </div>
+                        </div>
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                    <div className="qualification__data">
+                        <div></div>
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 className="qualification__title"> Software Engineer</h3>
+                            <span className="qualification__subtitle">Bipolar Factory Private Limited</span>
+                            <div className="qualification__calendar">
+                                <i className="uil uil-calendar-alt"></i>{" "}oct-2023 to sep 2024
+
+                            </div>
+                        </div>
+                      
+                        <div>
+                        </div>
+                    </div>
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">Web Developer</h3>

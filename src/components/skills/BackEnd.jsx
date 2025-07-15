@@ -19,6 +19,30 @@ function BackEnd() {
               <i className="bx bx-badge-check"></i>
 
               <div>
+                  <h3 className="skills__name">Python</h3>
+                  <span className="skills__level">Intermediate</span>
+              </div>
+          </div>
+          <div className="skills__data">
+              <i className="bx bx-badge-check"></i>
+
+              <div>
+                  <h3 className="skills__name">AI&ML</h3>
+                  <span className="skills__level">Learning</span>
+              </div>
+          </div>
+          <div className="skills__data">
+              <i className="bx bx-badge-check"></i>
+
+              <div>
+                  <h3 className="skills__name">MCP</h3>
+                  <span className="skills__level">Intermediate</span>
+              </div>
+          </div>
+          <div className="skills__data">
+              <i className="bx bx-badge-check"></i>
+
+              <div>
                   <h3 className="skills__name">Express JS</h3>
                   <span className="skills__level">Advance</span>
               </div>
@@ -95,7 +119,7 @@ function BackEnd() {
 
               <div>
                   <h3 className="skills__name"> Algorithms and Data Structure</h3>
-                  <span className="skills__level">Basic</span>
+                  <span className="skills__level">Intermediate</span>
               </div>
           </div>
           <div className="skills__data">
@@ -103,6 +127,14 @@ function BackEnd() {
 
               <div>
                   <h3 className="skills__name">Bcrypt</h3>
+                  <span className="skills__level">Intermediate</span>
+              </div>
+          </div>
+          <div className="skills__data">
+              <i className="bx bx-badge-check"></i>
+
+              <div>
+                  <h3 className="skills__name">Graphql</h3>
                   <span className="skills__level">Intermediate</span>
               </div>
           </div>
