@@ -114,7 +114,7 @@ function Qualification() {
                             <h3 className="qualification__title"> Senior Software Engineer & Front-end Lead</h3>
                             <span className="qualification__subtitle">Bipolar Factory Private Limited</span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i>{" "}Sep-2024 to jul-2025
+                                <i className="uil uil-calendar-alt"></i>{" "}Oct-2023 to jul-2025
 
                             </div>
                         </div>
