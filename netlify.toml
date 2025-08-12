@@ -1,0 +1,36 @@
+[build]
+  # Disable treating warnings as errors (overrides CI=true)
+  command = "CI=false npm run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "18"                     # Match local Node version
+  NPM_FLAGS = "--legacy-peer-deps"        # Avoid peer dependency conflicts
+  CI = "false"                            # Prevent warnings from failing the build
+  TZ = "UTC"                              # Consistent timezone for builds
+
+# Run a prebuild step to update caniuse-lite before building
+[build.lifecycle]
+  onBuild = "npx update-browserslist-db@latest --yes"
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"  # Optional performance audits
+
+[build.processing]
+  skip_processing = true                  # Skip Netlify post-processing for static React apps
+
+[build.cache]
+  npm = true
+  yarn = true
+
+# Headers (example for React SPA routing)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Redirects for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
