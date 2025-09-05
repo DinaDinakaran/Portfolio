@@ -109,6 +109,24 @@ function Qualification() {
                 ? "qualification__content qualification__content-active "
                 :"qualification__content"
             }>
+                 <div className="qualification__data">
+                        <div></div>
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 className="qualification__title"> Lead Engineer</h3>
+                            <span className="qualification__subtitle">HCLTech chennai (Paypal Clint)</span>
+                            <div className="qualification__calendar">
+                                <i className="uil uil-calendar-alt"></i>{" "} august-2025 to present
+
+                            </div>
+                        </div>
+                      
+                        <div>
+                        </div>
+                    </div>
                   <div className="qualification__data">
                       <div>
                             <h3 className="qualification__title"> Senior Software Engineer & Front-end Lead</h3>
@@ -170,7 +188,7 @@ function Qualification() {
                             <h3 className="qualification__title">Application Engineer</h3>
                             <span className="qualification__subtitle">Ccube Technologies</span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i>{" "}dec-2021 to june 2022
+                                <i className="uil uil-calendar-alt"></i>{" "}june-2021 to june 2022
 
                             </div>
                         </div>
