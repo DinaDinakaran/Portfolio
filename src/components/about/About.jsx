@@ -33,7 +33,7 @@ function About() {
             </ul>
             Collaborated on global sports projects, including tennis and table tennis federations.
           </p>
-          <a href="https://drive.google.com/file/d/14SKjcxWpD-xU5TrO1D7hxSN0Hn4RHnSJ/view?usp=sharing" target='_blank' className="button button--flex" style={{margin:"0.75rem"}} >View Resume</a>
+          <a href="https://drive.google.com/file/d/1NC3wNfB01f9zM0Npli750irx77fRqQ8J/view?usp=sharing" target='_blank' className="button button--flex" style={{margin:"0.75rem"}} >View Resume</a>
           <a download='' href={cv} className="button button--flex">Download Resume 
           <svg
                 className="button__icon"
